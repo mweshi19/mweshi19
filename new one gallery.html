@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Gallery - Kydeva Sacco</title>
+  <style>
+    body {
+      
+      background: url('office.jpg') no-repeat  center fixed;
+      background-size: cover;
+      
+    }
+    .container {
+      
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    h1 {
+      text-align: center;
+      color: #ffeb3b; /* Bright yellow */
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .gallery img {
+      margin: 10px;
+      border: 5px solid #fff;
+      border-radius: 10px;
+      width: calc(33% - 20px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Gallery</h1>
+    <div class="gallery">
+      <img src="money man.jpg" alt="Image 1">
+      <img src="man hold money.jpg" alt="Image 2">
+      <img src="support.jpg" alt="Image 3">
+      <img src="money rain.jpg" alt="Image 4">
+      <img src="office.jpg" alt="Image 5">
+    </div>
+  </div>
+  <div class="footer">
+    BAIT/24W/U/A0258
+  </div>
+</body>
+</html>
